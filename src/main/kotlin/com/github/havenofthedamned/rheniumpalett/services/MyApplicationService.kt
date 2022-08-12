@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.havenofthedamned.rheniumpalett.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.havenofthedamned.rheniumpalett.MyBundle
 
 class MyApplicationService {
 
