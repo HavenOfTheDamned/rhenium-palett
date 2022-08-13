@@ -7,12 +7,7 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.havenofthedamned.rheniumpalett.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.havenofthedamned.rheniumpalett.services.MyProjectService"/>
+        <themeProvider id="com.github.havenofthedamned.rheniumpalett" path="/theme/rheniumtheme.json">
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.havenofthedamned.rheniumpalett.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>
